@@ -6,12 +6,15 @@ export const navItems = [
 ];
 
 export const heroContent = {
-  title: "Meet CogniBot",
-  subtitle: "Your intelligent AI assistant for automating thoughts, decisions, and workflows.",
-  ctaPrimary: "Get Started",
-  ctaSecondary: "Learn More",
-  typewriterWords: ["Auto-tagging", "Smart Replies", "Real-Time Insights"],
-}
+  title: "Your AI Assistant",
+  subtitle: "CogniBot helps you think, write, and build faster.",
+  cta: {
+    label: "Try CogniBot",
+    href: "#",
+  },
+  typewriterWords: ["code", "write", "think", "create"],
+};
+
 
 export const demoContent = {
   title: "See CogniBot in Action",
@@ -43,21 +46,73 @@ export const featuresContent = {
   ],
 }
 
-export const testimonialsContent = [
-  {
-    name: "Sarah Al Farsi",
-    quote: "CogniBot has transformed how we handle customer support. It feels human.",
-    avatar: "/assets/testimonial1.jpg",
-  },
-  {
-    name: "Yusuf Khan",
-    quote: "We automated over 40% of our tasks thanks to CogniBot’s smart features.",
-    avatar: "/assets/testimonial2.jpg",
-  },
-]
+export const testimonialsContent = {
+  title: "What People Are Saying",
+  subtitle: "Trusted by developers, teams, and professionals worldwide.",
+  testimonials: [
+    {
+      name: "Amina R.",
+      role: "Product Designer",
+      message: "CogniBot has completely transformed the way I manage tasks and respond to client queries. It’s like having a co-pilot!",
+      image: "https://randomuser.me/api/portraits/women/44.jpg",
+    },
+    {
+      name: "James K.",
+      role: "Software Engineer",
+      message: "As a developer, CogniBot’s API integrations save me hours every week. It just understands what I need.",
+      image: "https://randomuser.me/api/portraits/men/32.jpg",
+    },
+    {
+      name: "Sofia M.",
+      role: "AI Researcher",
+      message: "It's rare to see an assistant that balances UX and intelligence so well. CogniBot is ahead of the curve.",
+      image: "https://randomuser.me/api/portraits/women/65.jpg",
+    },
+  ],
+};
+export const faqContent = {
+  title: "Frequently Asked Questions",
+  subtitle: "Everything you need to know about CogniBot, answered.",
+  items: [
+    {
+      question: "Is CogniBot free to use?",
+      answer: "Yes! The basic version is completely free. We also offer a Pro plan with advanced features.",
+    },
+    {
+      question: "What languages does CogniBot support?",
+      answer: "CogniBot supports over 20 languages including English, Spanish, Arabic, Portuguese, and more.",
+    },
+    {
+      question: "Can I integrate CogniBot into my website?",
+      answer: "Absolutely! CogniBot offers an embeddable widget and a full-featured API for developers.",
+    },
+  ],
+};
+
+
 
 export const ctaContent = {
-  title: "Ready to try CogniBot?",
-  subtitle: "Start your journey into AI-powered productivity today.",
-  buttonText: "Join the Beta",
-}
+  title: "Ready to Get Started?",
+  subtitle: "Try CogniBot today and experience the future of AI-powered productivity.",
+  button: {
+    label: "Launch Now",
+    href: "#",
+  },
+};
+
+export const footerContent = {
+  logoText: "CogniBot",
+  links: [
+    { name: "Home", href: "#" },
+    { name: "Features", href: "#features" },
+    { name: "Demo", href: "#demo" },
+    { name: "Testimonials", href: "#testimonials" },
+    { name: "FAQ", href: "#faq" },
+  ],
+  copyright:
+    "© " + new Date().getFullYear() + " CogniBot. All rights reserved.",
+  socials: [
+    { name: "GitHub", href: "https://github.com", icon: "github" },
+    { name: "Twitter", href: "https://twitter.com", icon: "twitter" },
+  ],
+};
