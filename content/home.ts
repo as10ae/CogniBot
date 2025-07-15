@@ -27,24 +27,54 @@ export const demoContent = {
 };
 
 
-export const featuresContent = {
-  title: "Powerful AI Features",
-  subtitle: "CogniBot is packed with cutting-edge tools to make your life easier.",
-  items: [
-    {
-      title: "Natural Language Understanding",
-      description: "Understand and process user intent in real-time.",
-    },
-    {
-      title: "Context-Aware Memory",
-      description: "Keep conversations flowing with context tracking.",
-    },
-    {
-      title: "Multilingual Support",
-      description: "Talk to CogniBot in your native language—seamlessly.",
-    },
-  ],
-}
+export const featuresGridItems = [
+  {
+    title: "Natural Language Understanding",
+    description: "CogniBot accurately interprets queries using advanced language models.",
+    image: "https://images.unsplash.com/photo-1716436329836-208bea5a55e6?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    icon: "clipboard",
+  },
+  {
+    title: "Context-Aware Conversations",
+    description: "It remembers past interactions for seamless, intelligent dialogue flow.",
+    image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    icon: "file",
+  },
+  {
+    title: "Real-Time Responses",
+    description: "Delivers instant replies optimized for accuracy and relevance.",
+    image: "https://plus.unsplash.com/premium_photo-1680608979589-e9349ed066d5?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    icon: "signature",
+  },
+  {
+    title: "Multi-Platform Integration",
+    description: "Connect CogniBot with websites, apps, and devices effortlessly.",
+    image: "https://plus.unsplash.com/premium_photo-1700483344376-a36e2afca858?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    icon: "table",
+  },
+  {
+    title: "Customizable Personalities",
+    description: "Define how your AI assistant speaks, behaves, and interacts.",
+    image: "https://plus.unsplash.com/premium_photo-1725907643701-9ba38affe7bb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    icon: "arrow",
+  },
+  {
+    title: "Smart Task Automation",
+    description: "Schedule, remind, and execute tasks using intelligent triggers.",
+    image: "https://images.unsplash.com/photo-1679639539537-0d2e452890f7?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    icon: "topLeft",
+  },
+  {
+    title: "Privacy-First Architecture",
+    description: "All interactions encrypted and processed with full transparency.",
+    image: "https://images.unsplash.com/photo-1696258686454-60082b2c33e2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    icon: "rightFilled",
+  },
+];
+
+
+
+
 
 export const testimonialsContent = {
   title: "What People Are Saying",
